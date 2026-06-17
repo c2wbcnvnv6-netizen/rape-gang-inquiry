@@ -1,0 +1,448 @@
+export type QuoteCategory = "survivor" | "scale" | "institutional";
+
+export interface ReportQuote {
+  id: string;
+  text: string;
+  category: QuoteCategory;
+  source: string;
+}
+
+export const reportQuotes: ReportQuote[] = [
+  // —— SCALE ——
+  {
+    id: "scale-1",
+    category: "scale",
+    source: "Executive Summary",
+    text: "At the very least, 250,000 young white girls have been subjected to repeated rape, gang rape, trafficking, torture, pregnancy, forced Islamic conversion, and lifelong trauma. The true number is probably higher.",
+  },
+  {
+    id: "scale-2",
+    category: "scale",
+    source: "Executive Summary",
+    text: "The same unspeakable crimes occurred in at least 149 local authority districts — close to 40% of all such districts across the United Kingdom.",
+  },
+  {
+    id: "scale-3",
+    category: "scale",
+    source: "Lord Pearson, House of Lords, 2019",
+    text: "If we extrapolate nationally the Jay report on Rotherham and other reports from Telford and Oxford, there appear to have been upwards of 250,000 young white girls raped in this century, very largely by Muslim men, usually several times a day for years.",
+  },
+  {
+    id: "scale-4",
+    category: "scale",
+    source: "Jay Report / Rotherham",
+    text: "At least 1,400 girls abused in Rotherham between 1997 and 2013. Perpetrators were overwhelmingly Pakistani Muslim men.",
+  },
+  {
+    id: "scale-5",
+    category: "scale",
+    source: "Telford Inquiry, 2022",
+    text: "More than 1,000 children in Telford exploited over decades — again with the same perpetrator profile and the same institutional indifference.",
+  },
+  {
+    id: "scale-6",
+    category: "scale",
+    source: "Executive Summary",
+    text: "Girls as young as 11 were collected from school gates, care homes, and streets in taxis, raped repeatedly by groups of men, tortured, filmed for blackmail, and told they were 'white trash' or 'kuffar' who merited punishment.",
+  },
+  {
+    id: "scale-7",
+    category: "scale",
+    source: "Executive Summary",
+    text: "Survivors described daily rapes, 'red rooms' of extreme torture, trafficking between cities, and institutional disbelief that compounded their suffering.",
+  },
+  {
+    id: "scale-8",
+    category: "scale",
+    source: "Overview of Crimes — London",
+    text: "The Metropolitan Police announced a review of 9,000 child sexual exploitation cases. London forms a significant part of this backlog.",
+  },
+  {
+    id: "scale-9",
+    category: "scale",
+    source: "Executive Summary",
+    text: "Around 87% of those convicted in group-based child sexual exploitation cases bore distinctively Muslim names. The vast majority of men involved in these gangs were not convicted.",
+  },
+  {
+    id: "scale-10",
+    category: "scale",
+    source: "Overview of Crimes, 1955",
+    text: "The first recorded case of specifically Pakistani rape gangs dates back to 1955, when four Bradford-based Pakistanis were charged with raping a 15-year-old girl.",
+  },
+  {
+    id: "scale-11",
+    category: "scale",
+    source: "Executive Summary",
+    text: "One of the most horrendous failures in the history of the country. Organised networks transported victims between locations, supplied drugs and alcohol, recorded abuse for blackmail, and passed girls between multiple adult men.",
+  },
+  {
+    id: "scale-12",
+    category: "scale",
+    source: "Overview of Crimes",
+    text: "What began as singular and small-scale instances became systematic and industrial over time.",
+  },
+
+  // —— INSTITUTIONAL ——
+  {
+    id: "inst-1",
+    category: "institutional",
+    source: "Executive Summary",
+    text: "Police forces ignored repeated reports, criminalised victims instead of perpetrators, destroyed evidence, and allowed known rapists to walk free on bail.",
+  },
+  {
+    id: "inst-2",
+    category: "institutional",
+    source: "Executive Summary",
+    text: "The NHS recorded genital injuries, multiple sexually transmitted infections in children as young as 13, pregnancies caused by rape, and suicide attempts, yet discharged victims back to their abusers without safeguarding referrals.",
+  },
+  {
+    id: "inst-3",
+    category: "institutional",
+    source: "Appendix III — Police",
+    text: "There is disturbing evidence that serving police officers were active members of the rape gangs, while others went out of their way to protect them. This was systemic across multiple forces and lasted for decades.",
+  },
+  {
+    id: "inst-4",
+    category: "institutional",
+    source: "Executive Summary",
+    text: "Political correctness, fear of accusations of racism, and fear of losing electoral support have taken precedence over the protection of British children.",
+  },
+  {
+    id: "inst-5",
+    category: "institutional",
+    source: "Victim testimony — Chloe",
+    text: "She replied that she had been having sex with adult males in cars. Rather than opening an investigation, the police dismissed Chloe as a prostitute.",
+  },
+  {
+    id: "inst-6",
+    category: "institutional",
+    source: "Victim testimony — Chloe",
+    text: "Chloe told the police officer about the full extent of the abuse. The response was that nothing could be done, and Chloe was let go.",
+  },
+
+  // —— SURVIVOR ——
+  {
+    id: "surv-1",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "After being forced to have sex with between 15 and 20 men, my friend became violently ill from the alcohol. My own parents called the police but they were not interested in pursuing what had happened.",
+  },
+  {
+    id: "surv-2",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "He held me down while they each had sex with me, laughing during the assault.",
+  },
+  {
+    id: "surv-3",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "Despite all this, the authorities treated me as though I was to blame for what was happening. I felt completely powerless, trapped between violent perpetrators and a system unwilling to protect me.",
+  },
+  {
+    id: "surv-4",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "I remember a man opening the back of a van and I saw maybe 15, 20 girls locked in dog cages. Looked like they're on drugs.",
+  },
+  {
+    id: "surv-5",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "Sick knowing that it's still going on. That nobody's wanting to do anything about it even now in 2026. We're still having this conversation.",
+  },
+  {
+    id: "surv-6",
+    category: "survivor",
+    source: "Appendix II — Inquiry testimony",
+    text: "He's the one who took my virginity. — How old was he? — About 33 at the time. — You were 15 at this point? — Yes.",
+  },
+  {
+    id: "surv-7",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "I was told that we were being sold to the men for sex. I had not known this beforehand. I did not want to participate, but I was frightened, trapped, and complied out of fear.",
+  },
+  {
+    id: "surv-8",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "I disclosed the sexual exploitation, the repeated trips to flats, the involvement of adult men, the exchange of money. I was told this did not constitute trafficking, that I was over 16, and that what was happening was a matter of 'choice.' Police were not contacted.",
+  },
+  {
+    id: "surv-9",
+    category: "survivor",
+    source: "Appendix II — Inquiry testimony",
+    text: "Coca-Cola bottles. Keys, for some reason. Somebody tried to put a baseball bat up there. — Do you think they were doing these things for sexual gratification? — It's about harm. They don't care.",
+  },
+  {
+    id: "surv-10",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "I was 12 years old. He pulled my pants down, got on top of me and raped me. I was saying no, I was kicking. He was taken to trial and caught. He was put on a retrial and he walked away. He's now walking the streets.",
+  },
+  {
+    id: "surv-11",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "Chlamydia in my throat and vagina. Gonorrhoea. Genital warts. Pelvic inflammatory disease. Never once did any nurse or doctor question any of that.",
+  },
+  {
+    id: "surv-12",
+    category: "survivor",
+    source: "Appendix II — Inquiry testimony",
+    text: "Yes, it very much looked like it — the staff at the home were selling you to these foreign men. They knew the names of the children, they were all hanging around in back to back taxis.",
+  },
+  {
+    id: "surv-13",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "They would toot the horn of the car and then a child would be taken to the front door by a staff member of the children's home.",
+  },
+  {
+    id: "surv-14",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "When I was 15 they trafficked me to Birmingham. I walked into the bathroom in the flat and there was a dead girl in the bath.",
+  },
+  {
+    id: "surv-15",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "Hand on my throat, next to the window, going, no, you need to do it. And I thought, I'm going out this fucking window if I don't do what I'm told. So I did.",
+  },
+  {
+    id: "surv-16",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "He put a cigarette out on the baby's face.",
+  },
+  {
+    id: "surv-17",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "You're 'gora,' like white trash and white skin. They've got to punish me to get the badness out of me. That's why they have to rape me.",
+  },
+  {
+    id: "surv-18",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "We were given absinthe and vodka — literally one of the strongest alcohols was given to us, and by no mistake. It was to exploit us in some of the horrendous ways possible that a child could be.",
+  },
+  {
+    id: "surv-19",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "It started when I was 13 — probably about six, seven hundred different men over the three years.",
+  },
+  {
+    id: "surv-20",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "I went when I was 13 with chlamydia, and then I got genital herpes, and then I had a miscarriage. And that was all between 13 and 15. So they knew something was going on. The NHS is complicit.",
+  },
+  {
+    id: "surv-21",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "The gangs are untouchable. Because nobody wants to admit that there's a problem because they don't want to be deemed as racist.",
+  },
+  {
+    id: "surv-22",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "They said they wanted to take me back to meet their families. So luckily I didn't have a passport, otherwise I might not be sat here right now.",
+  },
+  {
+    id: "surv-23",
+    category: "survivor",
+    source: "Appendix II — Inquiry testimony",
+    text: "The imams who run the mosque — are they aware? — They know, 100%. His Dad was an imam. His Dad knew.",
+  },
+  {
+    id: "surv-24",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "The police would come out, and they would call us prostitutes. They blamed us for it. It was our choice.",
+  },
+  {
+    id: "surv-25",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "It wasn't just rape. It was violence as well. I've had a gun held to my head. I've been beaten so that I'm literally covered, head to toe in bruises.",
+  },
+  {
+    id: "surv-26",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "I don't think people realise — I think they think it's rape, but it was torture as well. I'd be kidnapped and locked in a room. I'd be beaten. I'd be told if I don't do this, I'm not going to go home.",
+  },
+  {
+    id: "surv-27",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "I was taken to A&E because my vagina was split open from a glass bottle. It's not even in my medical records.",
+  },
+  {
+    id: "surv-28",
+    category: "survivor",
+    source: "Appendix II — Inquiry testimony",
+    text: "How many different men raped you when you were 16? — About 100.",
+  },
+  {
+    id: "surv-29",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "I couldn't walk down the street without cars pulling up and just saying, 'get in now.' It was about ten in one night — you'd get out of that one car, you'd be in the next car, the next car.",
+  },
+  {
+    id: "surv-30",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "There was a group chat for all the taxi drivers, so they were all communicating with each other. Mainly Muslim taxi drivers. Girls half drunk get in a taxi thinking it's the same one and then they're took to places to get raped.",
+  },
+  {
+    id: "surv-31",
+    category: "survivor",
+    source: "Appendix II — Mother of survivor",
+    text: "We've had to firebomb-proof our letterbox because we've had threats to have the house burnt down. She's had threats to get her throat slashed. This has been continuous for four years.",
+  },
+  {
+    id: "surv-32",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "I want the institutions to say, we hold our hands up. We believe you and we're sorry. When you're being told that you're a liar for such a long time, you begin to believe it.",
+  },
+  {
+    id: "surv-33",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "The worst people in this situation, apart from the perpetrators, are the people in those authorities that had every opportunity to do something about it and chose not to. That's how it was born, how it thrived, how it's surviving.",
+  },
+  {
+    id: "surv-34",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "At the sentencing, she was constantly saying, fucking liars, lying white bitches — shouting obscenities at us throughout the whole sentencing.",
+  },
+  {
+    id: "surv-35",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "The police smirked at me in my own home and left. There was no evidence that they were going to do anything different.",
+  },
+  {
+    id: "surv-36",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "A 24-year-old woman said, go in the room with him and have sex with him now. Go and fucking do it. I remember her scream so loudly — she came running back half-dressed, bleeding and in pain.",
+  },
+  {
+    id: "surv-37",
+    category: "survivor",
+    source: "Victim testimony — Chloe",
+    text: "He forced the empty whiskey bottle into Chloe's vagina, where it shattered. She was twelve years old. She admitted herself to A&E, but no questions were asked. She was examined, the glass was removed, and she was discharged.",
+  },
+  {
+    id: "surv-38",
+    category: "survivor",
+    source: "Victim testimony — Chloe",
+    text: "For up to three days she was passed between taxis, drugged, abused, and raped. In every case, the perpetrators were Muslims, and primarily Pakistani.",
+  },
+  {
+    id: "surv-39",
+    category: "survivor",
+    source: "Victim testimony — Chloe",
+    text: "At eleven she was 'absolutely smashed' on cannabis in a hotel room while her friend was taken into another room by a group of men. They were thrown out intoxicated at midnight and forced to walk home.",
+  },
+  {
+    id: "surv-40",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "I got beatings all the time whilst I was in the children's home because I was telling the police. I was beaten to the point where I got an aneurysm, my hair fell out.",
+  },
+  {
+    id: "surv-41",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "There was a circle of Pakistani nationals, they were pointing to the children as if they were choosing them.",
+  },
+  {
+    id: "surv-42",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "I woke to him rubbing his penis on my lips.",
+  },
+  {
+    id: "surv-43",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "Spin the bottle — I now believe the men manipulated the game so it always landed on me. I would end up very drunk and naked. The other girls would be taken home, but I would be kept back and subjected to sexual acts by the men.",
+  },
+  {
+    id: "surv-44",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "Knocked my tooth out, stamped on my head. Managed to get away because I think he threatened to burn my house down.",
+  },
+  {
+    id: "surv-45",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "Western women that had been married, gone to the Middle East — their children had been taken. They'd never see them again.",
+  },
+  {
+    id: "surv-46",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "The chances of me ever having a child were very, very, very slim — because of the chlamydia, the state of my ovaries, and the pelvic inflammatory disease from what I've been through.",
+  },
+  {
+    id: "surv-47",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "I've even been asked to get married to someone from Pakistan for money.",
+  },
+  {
+    id: "surv-48",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "Six Somali men in the lounge sitting around a coffee table. I went in expecting a house party.",
+  },
+  {
+    id: "surv-49",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "It was just control — exerting power over someone who's clearly vulnerable. 'I have you where I want you.'",
+  },
+  {
+    id: "surv-50",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "I've had a knife at my throat because he wanted me to 'sort out' 10, 15 cars full of men.",
+  },
+  {
+    id: "surv-51",
+    category: "survivor",
+    source: "Victim testimony — South Yorkshire",
+    text: "I feel that I was let down by South Yorkshire Police and social services in the Rotherham area. I remain deeply affected by this.",
+  },
+  {
+    id: "surv-52",
+    category: "survivor",
+    source: "Appendix II — Survivor quotation",
+    text: "I just want it to stop and not happen to any other children and for people to actually act and stop being so scared.",
+  },
+  {
+    id: "surv-53",
+    category: "survivor",
+    source: "Victim testimony — Chloe",
+    text: "Her mother caught her stepfather in the shower with Chloe and instead of intervening, she closed the door and walked out. Chloe was ten years old.",
+  },
+  {
+    id: "surv-54",
+    category: "survivor",
+    source: "Victim testimony — Chloe",
+    text: "The police found Chloe in cars with gang members on multiple occasions, but let the gang members go without so much as questioning them.",
+  },
+];
